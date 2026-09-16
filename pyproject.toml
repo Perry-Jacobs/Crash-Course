@@ -1,0 +1,17 @@
+[project]
+name = "crash-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastlite>=0.2.4",
+    "python-fasthtml>=0.14.13",
+]
+
+[project.scripts]
+dev = "crash_course.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
